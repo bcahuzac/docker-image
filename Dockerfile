@@ -1,7 +1,6 @@
 FROM ubuntu:18.04
 RUN apt-get update && apt-get install -y build-essential \
     sudo \
-    sudo apt install g++10 \
     cmake \
     clang-format \
     clang-tidy \
