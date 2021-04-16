@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y build-essential \
     git \
     python3 \
     python3-pip \
-    && sudo apt install -y g++10 \
+    && sudo apt install -y g++-10 \
     && pip3 install conan \
     && pip3 install cmakelint \
     && apt-get clean \
