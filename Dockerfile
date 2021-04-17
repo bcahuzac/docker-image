@@ -7,6 +7,9 @@ RUN apt-get update && \
     apt-get install -y cmake && \
     apt-get install -y clang-format && \
     apt-get install -y git && \
+    apt-get install -y python3 && \
+    apt-get install -y python3-pip && \
+    pip3 install cmakelint && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 CMD ["/bin/bash"]
