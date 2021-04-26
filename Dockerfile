@@ -9,6 +9,7 @@ RUN apt-get update && \
     apt-get install -y git && \
     apt-get install -y python3 && \
     apt-get install -y python3-pip && \
+    apt-get install -y clang-tidy9 && \
     pip3 install cmakelint && \
     pip3 install conan && \
     apt-get clean && \
